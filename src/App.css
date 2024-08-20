@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  overflow: hidden;
+  position: relative;
+}
+.top-panel {
+  color: white;
+  /* padding: 20px; */
+  flex-shrink: 0;
+}
+
+.left-panel {
+  display:block;
+  justify-content: flex-start;
+}
+
+.left-panel:hover{
+  border-left: 8px solid gray;
+}
+
+.right-panel {
+  position:absolute;
+  right: 0; /* Move the div to the right side */
+  top: 50px; /* Adjust top position as needed */
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.content {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

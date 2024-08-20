@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f0f0f0;
+}
+.detailbar {
+    width: 700px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    border-right: 1x solid #ddd;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-info h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #333;
+}
+.profile-info p {
+    margin: 5px 0;
+    color: #666;
+}
+.profile-info .email {
+    color: #009688;
+}
+.actions {
+    display: flex;
+    flex-direction: column;
+}
+.actions a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.actions a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

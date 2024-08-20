@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.navbar {
+    background: linear-gradient(45deg, hsl(271, 70%, 82%), hwb(207 39% 38%));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.3s;
+}
+.navbar a:hover {
+    background-color: rgba(200, 242, 175, 0.2);
+    transform: scale(1.05);
+}
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: none;
+    padding: 15px 25px;
+    float: left;
+}
+.navbar .menu {
+    float: right;
+}
+.navbar .menu a {
+    float: left;
+}
